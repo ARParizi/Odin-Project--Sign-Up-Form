@@ -19,29 +19,30 @@
     box-sizing: border-box;
     height: 100vh;
     width: 450px;
-    font-size: 72px;
     color: white;
     background-image: url('./images/background.jpg') ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    flex-shrink: 1;
 }
 
 .inline-image {
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 450px;
-    align-items: center;
     display: inline-flex;
+    box-sizing: border-box;
+    font-family: norse;
+    font-size: 128px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
     justify-content: center;
     margin-top: 200px;
     padding: 20px;
-    box-sizing: border-box;
 
 }
 
 .container-form {
-    padding: 20px 20px;
-
+    padding: 20px;
 }
 
 label {
